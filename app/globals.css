@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Rubik;
+}
+
+.logo{
+  font-family: Tiro Telugu;
+}
+
+/* reduce the size of scroll bar */
+.scrollbar-thin-custom::-webkit-scrollbar {
+  width: 4px;   /* smaller width */
+}
+
+.scrollbar-thin-custom::-webkit-scrollbar-thumb {
+  background-color: #888;   /* optionally style the thumb */
+  border-radius: 10px;
+}
